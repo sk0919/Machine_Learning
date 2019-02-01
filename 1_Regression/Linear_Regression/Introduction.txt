@@ -1,0 +1,18 @@
+Linear Regression is a supervised machine learning algorithm,
+where the predicted output is continuous and has a constant slope. 
+It’s used to predict values within a continuous range,(e.g.  price,sales).
+
+simple linear regression-
+With simple linear regression when we have a single input, we can use statistics to estimate the coefficients
+Simple linear regression uses traditional slope-intercept form, where 
+m and b are the variables our algorithm will try to “learn” to produce the most accurate predictions. x
+represents our input data and y represents our prediction.
+			y=m*x+b
+
+Multivariable regression-
+One more complex, multi-variable linear equation may look like this, where w
+represents the coefficients(weights), from which our model will try to learn.
+			f(X,Y,Z)=W1*X+W2*Y+W3*Z
+			where:	
+				X,Y,Z are the variables which are representing the attributes
+ 			sales=W1*MOBILE + W2*BATTERIES + W3*COVER +.........+Wn*N

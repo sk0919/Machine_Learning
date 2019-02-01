@@ -1,0 +1,18 @@
+here we are using svr (non linear classifier)-
+support vector regressor classifier is very helpful for classifing things non linearly
+-we can use different type of non linear kernel which can give quite impressive result for 
+predictors
+'rbf' kernel is the gaussian kernel
+'rbf' and 'poly' gives a very nice result
+default kernel is the (rbf)
+
+features scaling is required for the support vector regressor
+--this class is less common for the regression so this may be the cause for 
+  exclusion of this part(feature scaling).
+
+svr is helpful in detecting outlier   ;)
+
+
+note
+------always check datatype of the arguments which should be passed inside the method 
+otherwise it will give an error or it might be the cause of an error

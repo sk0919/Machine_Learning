@@ -1,0 +1,23 @@
+"""
+this model could perform better if we apply five degree
+i.e. 
+from sklearn.preprocessing import PolynomialFeatures
+poly_reg = PolynomialFeatures(degree = 5) 
+
+#result when we changes the degree values
+
+===============================================================================
+
+linear_regression predicts- 330378.78787879 for 6.5
+
+polynomial_linear_regression- predicts 174878.07765118 for 6.5(degree=5)
+
+polynomial_linear_regression- predicts 158862.45265153 for 6.5(degree=4)
+
+polynomial_linear_regression- predicts 133259.46969697 for 6.5(degree=3)
+===============================================================================
+"""
+
+values for six -    150000
+values for seven-   200000
+values for six.five-175000

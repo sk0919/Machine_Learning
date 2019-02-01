@@ -1,0 +1,1 @@
+principle component analysis provided the accuracy of 97.5% for the provided data
